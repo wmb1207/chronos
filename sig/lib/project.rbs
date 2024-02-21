@@ -1,0 +1,12 @@
+class Project
+  attr_accessor name: String
+  attr_accessor description: String
+  attr_accessor owner: String
+  attr_accessor main_branch: String
+
+  def initialize: (String name, String description, String owner, String main_branch) -> void
+  def self.from_configs: () -> Project
+  def describe: () -> void
+  def cd: () -> void
+  def update_branch: () -> void
+end

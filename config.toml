@@ -1,0 +1,10 @@
+[[projects]]
+name = "personal/chronos"
+description = "A simple time saver app"
+owner = "wmb"
+
+[[projects]]
+name = "homevision/src/mimir"
+description = "PDF PARSING AND ANALYSIS"
+owner = "homevision"
+main_branch = "vbc/characterize-fonts-with-fields"
